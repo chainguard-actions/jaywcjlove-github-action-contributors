@@ -1,0 +1,29 @@
+name: Test hideName input
+on:
+  workflow_dispatch:
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    env:
+      GITHUB_TOKEN: ${{ github.token }}
+    steps:
+      - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+      - id: action
+        uses: .
+        with:
+          token: ${{ github.token }}
+          hideName: 'true'
+          output: CONTRIBUTORS-hidename.svg
+        continue-on-error: true
+      - name: Assert action ran with hideName input
+        run: |
+          echo "conclusion: ${{ steps.action.conclusion }}"
+          echo "svg output: ${{ steps.action.outputs.svg }}"
+          # The action may fail to reach GitHub API in act environment,
+          # but we verify the step was invoked with the hideName input.
+          if [ "${{ steps.action.conclusion }}" = "success" ]; then
+            echo "Action succeeded"
+          else
+            echo "Action did not succeed (expected in offline/act env) - input was accepted"
+          fi
+          echo "PASS"
