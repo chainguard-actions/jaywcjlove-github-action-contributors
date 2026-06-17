@@ -1,14 +1,327 @@
-# jaywcjlove/github-action-contributors
+<div markdown="1">
+  <sup>Using <a href="https://wangchujiang.com/#/app" target="_blank">my app</a> is also a way to <a href="https://wangchujiang.com/#/sponsor" target="_blank">support</a> me:</sup>
+  <br>
+  <a target="_blank" href="https://apps.apple.com/app/6758053530" title="Scap: Screenshot & Markup Edit for macOS"><img alt="Scap: Screenshot & Markup Edit" height="52" width="52" src="https://wangchujiang.com/appicon/scap.png"></a>
+  <a target="_blank" href="https://apps.apple.com/app/6757317079" title="Screen Test for macOS"><img alt="Screen Test" height="52" width="52" src="https://wangchujiang.com/appicon/screen-test.png"></a>
+  <a target="_blank" href="https://apps.apple.com/app/Deskmark/6755948110" title="Deskmark for macOS"><img alt="Deskmark" height="52" width="52" src="https://wangchujiang.com/appicon/deskmark.png"></a>
+  <a target="_blank" href="https://apps.apple.com/app/Keyzer/6500434773" title="Keyzer for macOS"><img alt="Keyzer" height="52" width="52" src="https://wangchujiang.com/appicon/keyzer.png"></a>
+  <a target="_blank" href="https://github.com/jaywcjlove/vidwall-hub" title="Vidwall Hub for macOS"><img alt="Vidwall Hub" height="52" width="52" src="https://wangchujiang.com/appicon/vidwall-hub.png"></a>
+  <a target="_blank" href="https://apps.apple.com/app/VidCrop/6752624705" title="VidCrop for macOS"><img alt="VidCrop" height="52" width="52" src="https://wangchujiang.com/appicon/vidcrop.png"></a>
+  <a target="_blank" href="https://apps.apple.com/app/Vidwall/6747587746" title="Vidwall for macOS"><img alt="Vidwall" height="52" width="52" src="https://wangchujiang.com/appicon/vidwall.png"></a>
+  <a target="_blank" href="https://wangchujiang.com/mousio-hint/" title="Mousio Hint for macOS"><img alt="Mousio Hint" height="52" width="52" src="https://wangchujiang.com/appicon/mousio-hint.png"></a>
+  <a target="_blank" href="https://apps.apple.com/app/6746747327" title="Mousio for macOS"><img alt="Mousio" height="52" width="52" src="https://wangchujiang.com/appicon/mousio.png"></a>
+  <a target="_blank" href="https://apps.apple.com/app/6745227444" title="Musicer for macOS"><img alt="Musicer" height="52" width="52" src="https://wangchujiang.com/appicon/musicer.png"></a>
+  <a target="_blank" href="https://apps.apple.com/app/6743841447" title="Audioer for macOS"><img alt="Audioer" height="52" width="52" src="https://wangchujiang.com/appicon/audioer.png"></a>
+  <a target="_blank" href="https://apps.apple.com/app/6744690194" title="FileSentinel for macOS"><img alt="FileSentinel" height="52" width="52" src="https://wangchujiang.com/appicon/file-sentinel.png"></a>
+  <a target="_blank" href="https://apps.apple.com/app/6743495172" title="FocusCursor for macOS"><img alt="FocusCursor" height="52" width="52" src="https://wangchujiang.com/appicon/focus-cursor.png"></a>
+  <a target="_blank" href="https://apps.apple.com/app/6742680573" title="Videoer for macOS"><img alt="Videoer" height="52" width="52" src="https://wangchujiang.com/appicon/videoer.png"></a>
+  <a target="_blank" href="https://apps.apple.com/app/6740425504" title="KeyClicker for macOS"><img alt="KeyClicker" height="52" width="52" src="https://wangchujiang.com/appicon/key-clicker.png"></a>
+  <a target="_blank" href="https://apps.apple.com/app/6739052447" title="DayBar for macOS"><img alt="DayBar" height="52" width="52" src="https://wangchujiang.com/appicon/daybar.png"></a>
+  <a target="_blank" href="https://apps.apple.com/app/6739444407" title="Iconed for macOS"><img alt="Iconed" height="52" width="52" src="https://wangchujiang.com/appicon/iconed.png"></a>
+  <a target="_blank" href="https://apps.apple.com/app/6737160756" title="Mousio for macOS"><img alt="Mousio" height="52" width="52" src="https://wangchujiang.com/appicon/rightmenu-master.png"></a>
+  <a target="_blank" href="https://apps.apple.com/app/6723903021" title="Paste Quick for macOS"><img alt="Quick RSS" height="52" width="52" src="https://wangchujiang.com/appicon/paste-quick.png"></a>
+  <a target="_blank" href="https://apps.apple.com/app/6670696072" title="Quick RSS for macOS/iOS"><img alt="Quick RSS" height="52" width="52" src="https://wangchujiang.com/appicon/quick-rss.png"></a>
+  <a target="_blank" href="https://apps.apple.com/app/6670167443" title="Web Serve for macOS"><img alt="Web Serve" height="52" width="52" src="https://wangchujiang.com/appicon/web-serve.png"></a>
+  <a target="_blank" href="https://apps.apple.com/app/6503953628" title="Copybook Generator for macOS/iOS"><img alt="Copybook Generator" height="52" width="52" src="https://wangchujiang.com/appicon/copybook-generator.png"></a>
+  <a target="_blank" href="https://apps.apple.com/app/6471227008" title="DevTutor for macOS/iOS"><img alt="DevTutor for SwiftUI" height="52" width="52" src="https://wangchujiang.com/appicon/devtutor.png"></a>
+  <a target="_blank" href="https://apps.apple.com/app/6479819388" title="RegexMate for macOS/iOS"><img alt="RegexMate" height="52" width="52" src="https://wangchujiang.com/appicon/regex-mate.png"></a>
+  <a target="_blank" href="https://apps.apple.com/app/6479194014" title="Time Passage for macOS/iOS"><img alt="Time Passage" height="52" width="52" src="https://wangchujiang.com/appicon/time-passage.png"></a>
+  <a target="_blank" href="https://apps.apple.com/app/6478772538" title="IconizeFolder for macOS"><img alt="Iconize Folder" height="52" width="52" src="https://wangchujiang.com/appicon/iconize-folder.png"></a>
+  <a target="_blank" href="https://apps.apple.com/app/6478511402" title="Textsound Saver for macOS/iOS"><img alt="Textsound Saver" height="52" width="52" src="https://wangchujiang.com/appicon/textsound-saver.png"></a>
+  <a target="_blank" href="https://apps.apple.com/app/6476924627" title="Create Custom Symbols for macOS"><img alt="Create Custom Symbols" height="52" width="52" src="https://wangchujiang.com/appicon/create-custom-symbols.png"></a>
+  <a target="_blank" href="https://apps.apple.com/app/6476452351" title="DevHub for macOS"><img alt="DevHub" height="52" width="52" src="https://wangchujiang.com/appicon/devhub.png"></a>
+  <a target="_blank" href="https://apps.apple.com/app/6476400184" title="Resume Revise for macOS"><img alt="Resume Revise" height="52" width="52" src="https://wangchujiang.com/appicon/resume-revise.png"></a>
+  <a target="_blank" href="https://apps.apple.com/app/6472593276" title="Palette Genius for macOS"><img alt="Palette Genius" height="52" width="52" src="https://wangchujiang.com/appicon/palette-genius.png"></a>
+  <a target="_blank" href="https://apps.apple.com/app/6470879005" title="Symbol Scribe for macOS"><img alt="Symbol Scribe" height="52" width="52" src="https://wangchujiang.com/appicon/symbol-scribe.png"></a>
+</div>
+<hr>
 
-Github action generates dynamic image URL for contributor list to display it!.
+github-action-contributors
+===
 
-Hardened by [Chainguard](https://www.chainguard.dev) from the upstream action at [https://github.com/jaywcjlove/github-action-contributors](https://github.com/jaywcjlove/github-action-contributors).
+[![Buy me a coffee](https://img.shields.io/badge/Buy_Me_a_Coffee-ffdd00?logo=buy-me-a-coffee&logoColor=black)](https://jaywcjlove.github.io/#/sponsor)
+[![Follow On X](https://img.shields.io/badge/Follow%20on%20X-333333?logo=x&logoColor=white)](https://x.com/jaywcjlove)
+[![Build & Deploy](https://github.com/jaywcjlove/github-action-contributors/actions/workflows/ci.yml/badge.svg)](https://github.com/jaywcjlove/github-action-contributors/actions/workflows/ci.yml)
+[![Repo Dependents](https://badgen.net/github/dependents-repo/jaywcjlove/github-action-contributors)](https://github.com/jaywcjlove/github-action-contributors/network/dependents)
 
-## Versions
+Github action generates dynamic image URL for contributor list to display it!
 
-| Version | Tag | Upstream commit |
-|---------|-----|-----------------|
-| v2.0.3 | [`v2.0.3`](https://github.com/chainguard-actions/jaywcjlove-github-action-contributors/tree/v2.0.3) | [`f32397e`](https://github.com/jaywcjlove/github-action-contributors/commit/f32397e4f36a8b1bcdcbf4b1068a19a9f01f54e4) |
+The contributors list is fetched from [GitHub API](https://docs.github.com/cn/rest/repos/repos#list-repository-contributors).
+
+## Contributors
+
+As always, thanks to our amazing contributors!
+
+<a href="https://github.com/jaywcjlove/github-action-contributors/graphs/contributors">
+  <img src="https://jaywcjlove.github.io/github-action-contributors/CONTRIBUTORS.svg" />
+</a>
+
+Write contributors(**`htmlTable`**) to markdown Example:
+
+<!--GAMFC_TABEL--><table><tr>
+  <td align="center">
+    <a href="https://github.com/jaywcjlove" title="小弟调调">
+      <img src="https://avatars.githubusercontent.com/u/1680273?v=4" width="100;" alt="小弟调调"/>
+    <br /><sub><b>小弟调调</b></sub>
+    </a>
+  </td>
+</tr></table><!--GAMFC_TABEL-END-->
+
+Bot Users:
+
+<!--GAMFC_TABEL_BOTS--><table><tr>
+  <td align="center">
+    <a href="https://github.com/github-actions[bot]" title="github-actions[bot]">
+      <img src="https://avatars.githubusercontent.com/in/15368?v=4" width="100;" alt="github-actions[bot]"/>
+    <br /><sub><b>github-actions[bot]</b></sub>
+    </a>
+  </td>
+  <td align="center">
+    <a href="https://github.com/renovate[bot]" title="renovate[bot]">
+      <img src="https://avatars.githubusercontent.com/in/2740?v=4" width="100;" alt="renovate[bot]"/>
+    <br /><sub><b>renovate[bot]</b></sub>
+    </a>
+  </td>
+</tr></table><!--GAMFC_TABEL_BOTS-END-->
+
+Collaborators Users:
+
+<!--GAMFC_TABEL_COLLABORATORS--><table><tr>
+  <td align="center">
+    <a href="https://github.com/jaywcjlove" title="小弟调调">
+      <img src="https://avatars.githubusercontent.com/u/1680273?v=4" width="100;" alt="小弟调调"/>
+    <br /><sub><b>小弟调调</b></sub>
+    </a>
+  </td>
+</tr></table><!--GAMFC_TABEL_COLLABORATORS-END-->
+
+Write contributors(**`htmlList`**) to markdown Example:
+
+<!--GAMFC--><a href="https://github.com/jaywcjlove" title="小弟调调"><img src="https://avatars.githubusercontent.com/u/1680273?v=4" width="36;" alt="小弟调调"/></a><!--GAMFC-END-->
+
+## Usage
+
+```yml
+- run: mkdir -p build
+- name: Generate Contributors Images
+  uses: jaywcjlove/github-action-contributors@main
+  with:
+    filter-author: (renovate\[bot\]|renovate-bot|dependabot\[bot\])
+    output: build/CONTRIBUTORS.svg
+    avatarSize: 42
+
+- name: Deploy
+  uses: peaceiris/actions-gh-pages@v3
+  with:
+    github_token: ${{ secrets.GITHUB_TOKEN }}
+    publish_dir: ./build
+```
+
+```
+https://jaywcjlove.github.io/github-action-contributors/CONTRIBUTORS.svg
+```
+
+Use in markdown
+
+```markdown
+## Contributors
+
+As always, thanks to our amazing contributors!
+
+<a href="https://github.com/jaywcjlove/github-action-contributors/graphs/contributors">
+  <img src="https://jaywcjlove.github.io/github-action-contributors/CONTRIBUTORS.svg" />
+</a>
+
+Made with [contributors](https://github.com/jaywcjlove/github-action-contributors).
+```
+
+<a href="https://github.com/jaywcjlove/github-action-contributors/graphs/contributors">
+  <img src="https://jaywcjlove.github.io/github-action-contributors/CONTRIBUTORS.svg" />
+</a>
+
+### Write contributors(**`htmlList`**) to markdown
+
+```yml
+- name: Generate Contributors Images
+  uses: jaywcjlove/github-action-contributors@main
+  id: contributors
+  with:
+    filter-author: (renovate\[bot\]|renovate-bot|dependabot\[bot\])
+    avatarSize: 42
+
+- name: Modify README.md
+  uses: jaywcjlove/github-action-modify-file-content@main
+  with:
+    path: README.md
+    body: '${{steps.contributors.outputs.htmlList}}'
+```
+
+Use in `README.md` markdown
+
+```markdown
+## Contributors
+
+As always, thanks to our amazing contributors!
+
+<!--GAMFC--><a href="https://github.com/jaywcjlove" title="小弟调调"><img src="https://avatars.githubusercontent.com/u/1680273?v=4" width="36;" alt="小弟调调"/></a><!--GAMFC-END-->
+
+Made with [contributors](https://github.com/jaywcjlove/github-action-contributors).
+```
+
+Write contributors(**`htmlList`**) to markdown Example:
+
+<!--GAMFC--><a href="https://github.com/jaywcjlove" title="小弟调调"><img src="https://avatars.githubusercontent.com/u/1680273?v=4" width="36;" alt="小弟调调"/></a><!--GAMFC-END-->
+
+### Write contributors(**`htmlTable`**) to markdown
+
+```yml
+- name: Generate Contributors Images
+  uses: jaywcjlove/github-action-contributors@main
+  id: contributors
+  with:
+    filter-author: (renovate\[bot\]|renovate-bot|dependabot\[bot\])
+    openDelimiter: '<!--GAMFC_DELIMITER-->'
+    closeDelimiter: '<!--GAMFC_DELIMITER-END-->'
+    hideName: 'true' # Hide names in htmlTable
+    avatarSize: 100  # Set the avatar size.
+
+- name: Modify htmlTable README.md
+  uses: jaywcjlove/github-action-modify-file-content@main
+  with:
+    path: README.md
+    body: '${{steps.contributors.outputs.htmlTable}}'
+```
+
+Use in `README.md` markdown
+
+```markdown
+## Contributors
+
+As always, thanks to our amazing contributors!
+
+<!--GAMFC_DELIMITER-->will be replaced here<!--GAMFC_DELIMITER-END-->
+
+Made with [contributors](https://github.com/jaywcjlove/github-action-contributors).
+```
+
+Write contributors(**`htmlTable`**) to markdown Example:
+
+<!--GAMFC_TABEL_HIDE_NAME--><table><tr>
+  <td align="center">
+    <a href="https://github.com/jaywcjlove" title="小弟调调">
+      <img src="https://avatars.githubusercontent.com/u/1680273?v=4" width="100;" alt="小弟调调"/>
+    </a>
+  </td>
+</tr></table><!--GAMFC_TABEL_HIDE_NAME-END-->
+
+Bot Users:
+
+<!--GAMFC_TABEL_HIDE_NAME_BOTS--><table><tr>
+  <td align="center">
+    <a href="https://github.com/github-actions[bot]">
+      <img src="https://avatars.githubusercontent.com/in/15368?v=4" width="100;" alt="github-actions[bot]"/>
+    </a>
+  </td>
+  <td align="center">
+    <a href="https://github.com/renovate[bot]">
+      <img src="https://avatars.githubusercontent.com/in/2740?v=4" width="100;" alt="renovate[bot]"/>
+    </a>
+  </td>
+</tr></table><!--GAMFC_TABEL_HIDE_NAME_BOTS-END-->
+
+## Inputs
+
+- `token` - Your `GITHUB_TOKEN`. This is required. Why do we need `token`? Read more here: [About the GITHUB_TOKEN secret](https://help.github.com/en/actions/automating-your-workflow-with-github-actions/authenticating-with-the-github_token#about-the-github_token-secret). Default: `${{ github.token }}`
+- `filter-author` - Regular expression filtering'.
+- `count` - Specify the max count of contributors listed. Default list all contributors(max 100).
+- `output` - output image path. default: `CONTRIBUTORS.svg`
+- `truncate` - Truncate username by specified length, `0` for no truncate. default: `12`
+- `svgWidth` - Width of the generated SVG. default: `740`
+- `avatarSize` - Size of user avatar. default: `24`
+- `avatarMargin` - Margin of user avatar. default: `5`
+- `hideName` - Hide names in `htmlTable`
+- `userNameHeight` - Height of user name. default: `0`
+- `svgTemplate` - Template to render SVG.
+
+```xml
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  version="1.1"
+  width="{{ width }}"
+  height="{{ contributorsHeight }}"
+>
+  <style>.contributor-link { cursor: pointer; }</style>
+  {{{ contributors }}}
+</svg>
+```
+
+## Outputs
+
+- `svg` svg image string: `<svg xmlns....`.
+- `htmlTable` Contributor HTML \<Table> form string
+- `htmlTableBots` Contributor(Bot Users) HTML \<Table> form string
+- `htmlList` Contributor HTML \<a> list form string
+- `htmlListBots` Contributor(Bot Users) HTML \<a> list form string
+- `htmlCollaboratorsTable` Collaborators user HTML <Table> form string
+- `htmlCollaboratorsTableBots` Collaborators user(Bot Users) HTML <Table> form string
+- `htmlCollaboratorsList` Collaborators user HTML <a> list form string
+- `htmlCollaboratorsListBots` Collaborators user(Bot Users) HTML <a> form string
+
+### `htmlTable`
+
+```html
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/jaywcjlove">
+        <img src="https://avatars.githubusercontent.com/u/1680273?v=4" width="36;" alt="jaywcjlove"/><br />
+        <sub><b>jaywcjlove</b></sub>
+        </a>
+    </td>
+  </tr>
+</table>
+```
+
+### `htmlList`
+
+```html
+<a href="https://github.com/jaywcjlove">
+  <img src="https://avatars.githubusercontent.com/u/1680273?v=4" width="36;" alt="jaywcjlove"/>
+</a>
+<a href="https://github.com/github-actions[bot]">
+  <img src="https://avatars.githubusercontent.com/in/15368?v=4" width="36;" alt="github-actions[bot]"/>
+</a
+```
+
+## Quick Start
+
+```shell
+$ npm install
+
+$ npm run watch # Listen compile .ts files.
+$ npm run build # compile .ts files.
+```
+
+## Related
+
+- [Github Release Changelog](https://github.com/jaywcjlove/changelog-generator) Generator A GitHub Action that compares the commit differences between two branches
+- [Create Tags From](https://github.com/jaywcjlove/create-tag-action) Auto create tags from commit or package.json.
+- [Create Coverage Badges](https://github.com/jaywcjlove/coverage-badges-cli) Create coverage badges from coverage reports. (no 3rd parties servers)
+- [Create Coverage Package](https://github.com/jaywcjlove/github-action-package) Read and modify the contents of `package.json`.
+- [Generated Badges](https://github.com/jaywcjlove/generated-badges) Create a badge using GitHub Actions and GitHub Workflow CPU time (no 3rd parties servers)
+
+## Contributors
+
+As always, thanks to our amazing contributors!
+
+<!--GAMFC--><a href="https://github.com/jaywcjlove" title="小弟调调"><img src="https://avatars.githubusercontent.com/u/1680273?v=4" width="36;" alt="小弟调调"/></a><!--GAMFC-END-->
+
+Made with [contributors](https://github.com/jaywcjlove/github-action-contributors).
+
+## License
+
+Licensed under the MIT License.
 
 ## Privacy
 

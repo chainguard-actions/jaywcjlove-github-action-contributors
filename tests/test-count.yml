@@ -1,0 +1,37 @@
+name: Test count input
+on:
+  workflow_dispatch:
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+      - id: action
+        uses: .
+        with:
+          token: ${{ github.token }}
+          count: '5'
+          output: CONTRIBUTORS-count.svg
+          excludeBots: 'true'
+        env:
+          GITHUB_REPOSITORY: jaywcjlove/github-action-contributors
+      - name: Assert svg output is non-empty
+        env:
+          ACTUAL: ${{ steps.action.outputs.svg }}
+        run: |
+          echo "actual svg length: ${#ACTUAL}"
+          if [ -z "$ACTUAL" ]; then
+            echo "FAIL: expected svg output to be non-empty"
+            exit 1
+          fi
+          echo "PASS"
+      - name: Assert htmlList output is non-empty
+        env:
+          ACTUAL: ${{ steps.action.outputs.htmlList }}
+        run: |
+          echo "actual htmlList length: ${#ACTUAL}"
+          if [ -z "$ACTUAL" ]; then
+            echo "FAIL: expected htmlList output to be non-empty"
+            exit 1
+          fi
+          echo "PASS"
