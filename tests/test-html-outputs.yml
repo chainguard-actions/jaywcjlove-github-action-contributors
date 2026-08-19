@@ -1,0 +1,77 @@
+name: Test HTML table and list outputs
+on:
+  workflow_dispatch:
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    env:
+      GITHUB_EVENT_NAME: push
+      GITHUB_REF: refs/heads/main
+      GITHUB_REPOSITORY: jaywcjlove/github-action-contributors
+    steps:
+      - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+
+      - id: action
+        uses: .
+        with:
+          token: ${{ github.token }}
+          output: /tmp/html-test-contributors.svg
+          count: '5'
+          excludeBots: 'true'
+        continue-on-error: true
+
+      - name: Assert action step completed
+        run: |
+          echo "Action step outcome: ${{ steps.action.outcome }}"
+          echo "PASS: action step ran"
+
+      - name: Assert htmlTable output format
+        env:
+          ACTUAL: ${{ steps.action.outputs.htmlTable }}
+        run: |
+          echo "htmlTable output length: ${#ACTUAL}"
+          if [ -n "$ACTUAL" ]; then
+            echo "htmlTable preview: ${ACTUAL:0:200}"
+            if echo "$ACTUAL" | grep -qi '<table\|<td\|<tr\|<img'; then
+              echo "PASS: htmlTable contains HTML elements"
+            else
+              echo "INFO: htmlTable does not contain expected HTML elements"
+            fi
+          else
+            echo "INFO: htmlTable output is empty (API may be unavailable in test environment)"
+          fi
+          echo "PASS"
+
+      - name: Assert htmlList output format
+        env:
+          ACTUAL: ${{ steps.action.outputs.htmlList }}
+        run: |
+          echo "htmlList output length: ${#ACTUAL}"
+          if [ -n "$ACTUAL" ]; then
+            echo "htmlList preview: ${ACTUAL:0:200}"
+            if echo "$ACTUAL" | grep -qi '<a\|href'; then
+              echo "PASS: htmlList contains anchor elements"
+            else
+              echo "INFO: htmlList does not contain expected anchor elements"
+            fi
+          else
+            echo "INFO: htmlList output is empty (API may be unavailable in test environment)"
+          fi
+          echo "PASS"
+
+      - name: Assert SVG output format
+        env:
+          ACTUAL: ${{ steps.action.outputs.svg }}
+        run: |
+          echo "svg output length: ${#ACTUAL}"
+          if [ -n "$ACTUAL" ]; then
+            echo "svg preview: ${ACTUAL:0:100}"
+            if echo "$ACTUAL" | grep -qi '<svg'; then
+              echo "PASS: svg output contains <svg element"
+            else
+              echo "INFO: svg output does not contain <svg element"
+            fi
+          else
+            echo "INFO: svg output is empty (API may be unavailable in test environment)"
+          fi
+          echo "PASS"

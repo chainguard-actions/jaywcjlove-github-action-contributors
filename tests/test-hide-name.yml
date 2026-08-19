@@ -1,0 +1,41 @@
+name: Test hideName input
+on:
+  workflow_dispatch:
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+      - id: action
+        uses: .
+        with:
+          token: ${{ github.token }}
+          hideName: 'true'
+          output: CONTRIBUTORS-hidename.svg
+      - name: Assert svg output is non-empty
+        env:
+          ACTUAL: ${{ steps.action.outputs.svg }}
+        run: |
+          echo "actual svg length: ${#ACTUAL}"
+          if [ -z "$ACTUAL" ]; then
+            echo "FAIL: expected svg output to be non-empty"
+            exit 1
+          fi
+          echo "PASS: svg output is non-empty"
+      - name: Assert htmlTable output is non-empty
+        env:
+          ACTUAL: ${{ steps.action.outputs.htmlTable }}
+        run: |
+          echo "actual htmlTable length: ${#ACTUAL}"
+          if [ -z "$ACTUAL" ]; then
+            echo "FAIL: expected htmlTable output to be non-empty"
+            exit 1
+          fi
+          echo "PASS: htmlTable output is non-empty"
+      - name: Assert output file was created
+        run: |
+          if [ ! -f "CONTRIBUTORS-hidename.svg" ]; then
+            echo "FAIL: expected output file CONTRIBUTORS-hidename.svg to exist"
+            exit 1
+          fi
+          echo "PASS: output file exists"
