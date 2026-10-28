@@ -6,10 +6,10 @@ Hardened by [Chainguard](https://www.chainguard.dev) from the upstream action at
 
 ## Versions
 
-| Version | Tag | Upstream commit |
-|---------|-----|-----------------|
-| v2.0.3 | [`v2.0.3`](https://github.com/chainguard-actions/jaywcjlove-github-action-contributors/tree/v2.0.3) | [`f32397e`](https://github.com/jaywcjlove/github-action-contributors/commit/f32397e4f36a8b1bcdcbf4b1068a19a9f01f54e4) |
-| v2.1.0 | [`v2.1.0`](https://github.com/chainguard-actions/jaywcjlove-github-action-contributors/tree/v2.1.0) | [`1b74a53`](https://github.com/jaywcjlove/github-action-contributors/commit/1b74a53d91995ba1b910a997908bd86ec4869fed) |
+| Version | Tag | Upstream commit | Hardening report |
+|---------|-----|-----------------|------------------|
+| v2.0.3 | [`v2.0.3`](https://github.com/chainguard-actions/jaywcjlove-github-action-contributors/tree/v2.0.3) | [`f32397e`](https://github.com/jaywcjlove/github-action-contributors/commit/f32397e4f36a8b1bcdcbf4b1068a19a9f01f54e4) | [`HARDENING.md`](https://github.com/chainguard-actions/jaywcjlove-github-action-contributors/blob/v2.0.3/HARDENING.md) |
+| v2.1.0 | [`v2.1.0`](https://github.com/chainguard-actions/jaywcjlove-github-action-contributors/tree/v2.1.0) | [`1b74a53`](https://github.com/jaywcjlove/github-action-contributors/commit/1b74a53d91995ba1b910a997908bd86ec4869fed) | [`HARDENING.md`](https://github.com/chainguard-actions/jaywcjlove-github-action-contributors/blob/v2.1.0/HARDENING.md) |
 
 ## Privacy
 
